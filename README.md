@@ -2,7 +2,11 @@
 
 An experimental data audio-visualization tool that reads any arbitrary raw binary file and maps its byte streams into a real-time digital waterfall display and synthesized glitch audio. 
 
+> 💡 **Note**: This project was designed and developed in collaboration with **Gemini**.
+
 Unlike traditional visualizers that map predefined music to graphics, this tool treats the data files themselves (e.g., `.exe`, `.jpg`, `.pdf`) as the core automation source for a raw synthesizer.
+
+---
 
 ## Features
 
@@ -12,9 +16,30 @@ Unlike traditional visualizers that map predefined music to graphics, this tool 
 - **Phase Continuity**: Tracks the mathematical phase across buffer boundaries to eliminate jarring click artifacts.
 - **Matrix Waterfall Grid**: Renders data chunks onto the screen's Green channel for a retro terminal interface look.
 
-## Prerequisites
+---
 
-Make sure you have Python 3.8+ installed along with the required libraries:
+## Getting Started (How to Run)
+
+You can run this application directly using the pre-compiled executable file without setting up a Python environment.
+
+1. Navigate to the `dist` directory in this project.
+2. Download or locate the executable file (e.g., `binary_player.exe` or your custom named binary).
+3. Open your terminal (Command Prompt or PowerShell) inside that folder, and run the command below by passing any target file path as an argument.
+
+### Command Execution
 
 ```bash
-pip install pygame numpy
+# Windows Command Prompt / PowerShell
+binary_player.exe <path_to_target_file>
+
+# Example: Analyzing an image file
+binary_player.exe cat.jpg
+```
+
+Recommended Examples to Try
+Compiled Binaries (.exe, .bin, .dll): Generates dense cyber rhythms, heavy chiptune structures, and complex visual matrices.
+
+Compressed Images (.jpg, .png): Generates shifting tempos, sweeping melodic glitches, and sudden visual block bursts.
+
+Controls
+Close the graphical display window or press Ctrl + C in your terminal at any time to safely stop execution and exit.
