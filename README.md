@@ -7,6 +7,8 @@ An experimental data audio-visualization tool that reads any arbitrary raw binar
 Unlike traditional visualizers that map predefined music to graphics, this tool treats the data files themselves (e.g., `.exe`, `.jpg`, `.pdf`) as the core automation source for a raw synthesizer.
 
 ---
+<img width="806" height="648" alt="ss" src="https://github.com/user-attachments/assets/6f42eb37-4266-44fc-a3fc-7a837ee8a392" />
+
 
 ## Features
 
