@@ -1,0 +1,7 @@
+*.cfg
+
+bin/
+include/
+lib/
+lib64/
+
